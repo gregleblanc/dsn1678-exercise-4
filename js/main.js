@@ -14,6 +14,7 @@ $win.on('scroll', function () {
 
 	$sun.css('transform','rotate(' + scrollPos / 5 +'deg)');
 	$sunSection.css('background-position', 'center ' + scrollPos / 2 + 'px');
+
 });
 
 $dipperSection.waypoint(function() {
@@ -29,3 +30,8 @@ $shipsSection.waypoint(function() {
 	$ships.addClass('js-ships-fade');
 	$ships1.addClass('js-ships-fade-1');
 }, { offset: '50%' });
+
+
+
+
+

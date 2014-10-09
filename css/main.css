@@ -30,7 +30,7 @@ section {
 
 .js-dipper-fade {
 	/*dont forget to put all the other prefixes in for a normal code */
-	-webkit-animation: dipper-fade 1s linear forwards;
+	-webkit-animation: dipper-fade 1s ease-in-out forwards;
 	/* animation-fill-mode: forwards;
 	tells the animation to stay at its final state.
 	*/
@@ -60,7 +60,7 @@ section {
 }
 
 .js-shuttle-fade {
-	-webkit-animation: shuttle-fade 1s linear forwards;
+	-webkit-animation: shuttle-fade 1s ease-in-out forwards;
 }
 
 
@@ -87,6 +87,8 @@ section {
 	display: inline-block;
 	opacity: 0;
 	transform: translateY(100px);
+	padding: 50px;
+
 }
 
 .ships-1{
@@ -97,11 +99,11 @@ section {
 }
 
 .js-ships-fade {
-	-webkit-animation: ships-fade 1s linear forwards ;
+	-webkit-animation: ships-fade 1s ease-in-out forwards ;
 }
 
 .js-ships-fade-1 {
-	-webkit-animation: ships-fade 1.3s linear forwards ;
+	-webkit-animation: ships-fade 1.3s ease-in-out forwards ;
 }
 
 
